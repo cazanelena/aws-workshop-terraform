@@ -1,4 +1,4 @@
-// this builds and push the docker iamge to ECR
+// build and pushe the docker iamge to ECR
 
 module "ecr" {
   source  = "terraform-aws-modules/ecr/aws"
